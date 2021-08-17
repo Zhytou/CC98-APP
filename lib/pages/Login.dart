@@ -12,13 +12,14 @@ class LoginPage extends StatefulWidget {
   @override
   _LoginPageState createState() => _LoginPageState();
 }
-
+// payload登陆这一块建议先去了解一下token机制，最好能用chrome的开发者工具看一下你登陆cc98时传输的东西
+// 可以到https://openid.cc98.org/申请你的token
 class _LoginPageState extends State<LoginPage> {
   bool _logged = false;
   bool _passwordVisible = true;
   Map<String, dynamic> _payLoad = {
-    'client_id': '9a1fd200-8687-44b1-4c20-08d50a96e5cd',
-    'client_secret': '8b53f727-08e2-4509-8857-e34bf92b27f2',
+    'client_id': '填写你在https://openid.cc98.org/申请到的id',
+    'client_secret': '填写你在https://openid.cc98.org/申请到的secret',
     'grant_type': 'password',
     'username': '',
     'password': '',
