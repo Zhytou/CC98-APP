@@ -21,5 +21,6 @@
 
 + scroller嵌套
 + bbcode解析（bbcode是cc98网站内容所用的标记语言）
-+ 搜索框历史
++ 搜索历史
++ token机制，登陆cc98
 
