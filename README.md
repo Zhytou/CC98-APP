@@ -16,7 +16,7 @@
 
 + 测试环境：
 
-  - 模拟器：android simulator（android stdio上下载）
+  - 模拟器：android simulator（android studio上下载）
 
   - 真机：vivo x21
 
