@@ -1,4 +1,7 @@
 # CC98-APP
+
+![](./res/cc98.gif)
+
 ### Introduction
 
 + 基于flutter开发的CC98手机APP
@@ -9,7 +12,7 @@
 
 ### Envoirment
 
-+ vscode + flutter sdk 
++ 开发环境：vscode + flutter sdk 
 
 + 测试环境：
 
@@ -23,4 +26,19 @@
 + bbcode解析（bbcode是cc98网站内容所用的标记语言）
 + 搜索历史
 + token机制，登陆cc98
+
+### Build & Run
+
+```bash
+# 编译
+flutter create .
+# 运行
+flutter run
+# 热更新直接刷新
+r
+# 热更新重启刷新
+R
+# 退出运行模拟器
+q
+```
 
